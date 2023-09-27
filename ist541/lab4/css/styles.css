@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-	background-image: url("../img/chinese_writing.gif");   /* background image*/
+	background-color: aqua;   /* background image*/
 	color: #444;          /* text color for the entire document */
 	font-size: 12px;
 	font-family:Verdana, Geneva, sans-serif;
@@ -12,7 +12,7 @@ body {
 	width:900px;
 	margin:0 auto;         /* centers wrapper */
  	text-align:center;
-	background-color: rgba(255, 255, 255, 0.8);  /* creates white background with 80% opacity */
+	background-color: rgba(36,173,90,1.00)/* creates white background with 80% opacity */
 }
 
 table {
