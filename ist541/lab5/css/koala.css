@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+ #Renegade {
+display: none; /* hides content */
+}
+
+ #cca {
+display: none; /* hides content */
+}
+
+ #csea {
+display: none; /* hides content */
+}
+
+ #bcsw {
+display: none; /* hides content */
+}
+
+ #bcdelano {
+display: none; /* hides content */
+}
+
+ #bc {
+display: none; /* hides content */
+}
+
+ #bclogo4 {
+display: none; /* hides content */
+}
+
+
+.button {
+	border: black 2px solid;
+	margin: 5px;
+}
+.choices {
+cursor: pointer;
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lab5index</title>
+<link href="css/koala.css" rel="stylesheet" type="text/css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<a href="index.html" class="button"> BC Quiz </a>
+		<a href="question2.html" class="button"> Locations </a>
+		<h1>Bakersfield College Quiz!</h1>
+		<h2> What is our mascot?</h2>
+		<h4 id="hint">Hint: Hover over the image below to find out!</h4>
+			<img onmouseenter="showAnswer()" id="bclogo"  src="img/wearebc.jpg"   />
+			<img onmouseleave="hideAnswer()" id="Renegade" src="img/BC_logo.png" />
+
+		<div id="answer"></div>  <!-- This is a placeholder to display the answer-->
+		
+		<br>
+		<br>
+
+		<h2> Which union are our faculty members?</h2>
+			<img onmouseenter="showAnswer1()" id="bclogo1"  src="img/wearebc.jpg"   />
+			<img onmouseleave="hideAnswer1()" id="cca" src="img/CCA-Logo.webp" />
+
+		<div id="answer1"></div>  <!-- This is a placeholder to display the answer-->
+
+		<br>
+		<br>
+		
+		<h2> Which union are our classified members?</h2>
+			<img onmouseenter="showAnswer2()" id="bclogo2"  src="img/wearebc.jpg"   />
+			<img onmouseleave="hideAnswer2()" id="csea" src="img/csea.png" />
+
+		<div id="answer2"></div>  <!-- This is a placeholder to display the answer-->
+
+	</div> <!-- closing  “wrapper” -->
+	<script>
+		 function showAnswer() {
+			   $("#bclogo").hide();
+			   $("#Renegade").show();
+			   $("#answer").html("<h2>We are the Renegades!</h2>");
+			}
+
+		function hideAnswer() {
+			   $("#bclogo").show();
+			   $("#Renegade").hide();
+			   $("#answer").html("");  
+			}
+		function showAnswer1() {
+			   $("#bclogo1").hide();
+			   $("#cca").show();
+			   $("#answer1").html("<h2>The Community College Association</h2>");
+			}
+
+		function hideAnswer1() {
+			   $("#bclogo1").show();
+			   $("#cca").hide();
+			   $("#answer1").html("");  
+			}
+		function showAnswer2() {
+			   $("#bclogo2").hide();
+			   $("#csea").show();
+			   $("#answer2").html("<h2>The California School Employees Association</h2>");
+			}
+
+		function hideAnswer2() {
+			   $("#bclogo2").show();
+			   $("#csea").hide();
+			   $("#answer2").html("");  
+			}
+	</script>
+
+</body>
+</html>
