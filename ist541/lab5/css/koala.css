@@ -5,6 +5,7 @@
 width: 900px;
 margin: 0 auto;
 text-align: center;
+align-content: center;
 }
 
  #koala_image {
@@ -50,5 +51,9 @@ display: none; /* hides content */
 	margin: 5px;
 }
 .choices {
-cursor: pointer;
+	cursor: pointer;
+	border: 5px solid;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 }
