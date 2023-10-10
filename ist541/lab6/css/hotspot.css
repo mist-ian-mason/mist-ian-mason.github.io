@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;   /* centers all content */	
+}
+
+#wrapper {
+	width:85%;
+	margin:0 auto;       /* centers wrapper */
+}
+
+#feedback {
+	background: lightyellow; /* background color */
+	padding: 20px; 
+    font-size: 125%;
+}
+
