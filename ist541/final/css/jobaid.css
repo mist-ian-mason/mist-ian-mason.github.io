@@ -1,0 +1,165 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color: #000000;   /* background color */
+	color: #444;          /* text color for the entire page */
+}
+
+h1, h2 { 
+	color: white;
+	font-size: 40px;
+	text-align:center;     /* centers h1 and h2 content */
+}
+
+h4 {
+	color: white;
+	text-align: center;
+}
+
+iframe {
+	width: 100%;
+	margin: auto;
+}
+
+#intro{
+	font-size: 25px;
+	text-align: center;
+	border-radius: 15px;
+	border: red 3px solid;
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	align-content: center;
+}
+
+#video {
+	width: 80%;
+	margin: 0 auto;    /* centers wrapper */
+}
+
+#hyperlink{
+	color: cornflowerblue;
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 100%;
+	background-color:  white; 
+	color:  black; 
+}
+
+a:hover {
+	font-size:100%;
+	background-color: red; 
+	color: white; 
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	color: #FFFFFF;
+	background-color:#B5292E;
+	font-weight: bold;
+	font-size: 200%;
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding: 7px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.stepDescription {
+	width: 50%;
+	padding:3px;
+	line-height: 100%;
+	font-size: 100%;
+}
+
+.stepImage{
+	width: 40%;
+	height: auto;
+	max-width: auto;
+}
+
+.stepImage img{
+	border: solid;
+	border-color: grey;
+	border-radius: 10px;
+}
+
+.warning {
+	background-color: #FBB8C4;
+	padding:10px;
+	border-radius:20px;
+}
+
+.material-icons{
+	color:red;
+	font-size:10em;
+}
+
+strong {
+  font-weight: 800;
+}
+
+ #koala_image {
+border: black 5px solid;
+}
+ 
+ #koala_eating {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+ #Renegade {
+display: none; /* hides content */
+}
+
+ #cca {
+display: none; /* hides content */
+}
+
+ #csea {
+display: none; /* hides content */
+}
+
+ #bcsw {
+display: none; /* hides content */
+}
+
+ #bcdelano {
+display: none; /* hides content */
+}
+
+ #bc {
+display: none; /* hides content */
+}
+
+ #bclogo4 {
+display: none; /* hides content */
+}
+
+
+.button {
+	border: black 2px solid;
+	margin: 5px;
+}
+.choices {
+	cursor: pointer;
+	border: 5px solid;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}

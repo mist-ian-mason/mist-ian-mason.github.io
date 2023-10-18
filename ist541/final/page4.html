@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Common Issues</title>
+<link href="css/jobaid.css" rel="stylesheet" type="text/css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+	<a href="index.html"> Home </a>
+	<a href="page1.html"> Creating a Shortcut </a>
+	<a href="page2.html"> Navigating Support </a>
+	<a href="page3.html"> Submitting a Ticket </a>
+	<a href="page4.html"> Common Issues </a>
+	<a href="page5.html"> Self Service </a>
+	</div>
+		<h1>Common Issues, and where they should be pointed.</h1>
+		<h4 id="hint">Hint: Hover over the BC logo below to find the answer!</h4>
+		<h2> I cannot login to work machines.</h2>
+		
+			<img onmouseenter="showAnswer()" id="bclogo"  src="img/wearebc.jpg"   />
+			<img onmouseleave="hideAnswer()" id="Renegade" src="img/createacase.png" />
+
+		<div id="answer"></div>  <!-- This is a placeholder to display the answer-->
+		
+		<br>
+		<br>
+
+		<h2> I am unable to access my shared drive.</h2>
+			<img onmouseenter="showAnswer1()" id="bclogo1"  src="img/wearebc.jpg"   />
+			<img onmouseleave="hideAnswer1()" id="cca" src="img/createacase.png" />
+
+		<div id="answer1"></div>  <!-- This is a placeholder to display the answer-->
+
+		<br>
+		<br>
+		
+		<h2> Outside agencies are unable to send me emails.</h2>
+			<img onmouseenter="showAnswer2()" id="bclogo2"  src="img/wearebc.jpg"   />
+			<img onmouseleave="hideAnswer2()" id="csea" src="img/createacase.png" />
+
+		<div id="answer2"></div>  <!-- This is a placeholder to display the answer-->
+
+	</div> <!-- closing  “wrapper” -->
+	<script>
+		 function showAnswer() {
+			   $("#bclogo").hide();
+			   $("#Renegade").show();
+			   $("#answer").html("<h2></h2>");
+			}
+
+		function hideAnswer() {
+			   $("#bclogo").show();
+			   $("#Renegade").hide();
+			   $("#answer").html("");  
+			}
+		function showAnswer1() {
+			   $("#bclogo1").hide();
+			   $("#cca").show();
+			   $("#answer1").html("<h2></h2>");
+			}
+
+		function hideAnswer1() {
+			   $("#bclogo1").show();
+			   $("#cca").hide();
+			   $("#answer1").html("");  
+			}
+		function showAnswer2() {
+			   $("#bclogo2").hide();
+			   $("#csea").show();
+			   $("#answer2").html("<h2></h2>");
+			}
+
+		function hideAnswer2() {
+			   $("#bclogo2").show();
+			   $("#csea").hide();
+			   $("#answer2").html("");  
+			}
+	</script>
+
+</body>
+</html>

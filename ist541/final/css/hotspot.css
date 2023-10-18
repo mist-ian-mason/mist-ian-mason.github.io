@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #000000;   /* background color */
+	color: #444;          /* text color for the entire page */
+}
+
+h1, h2, h3 { 
+	color: white;
+	font-size: 40px;
+	text-align:center;     /* centers h1 and h2 content */
+}
+
+#map{
+	width: 70%;
+	margin: 0 auto;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	align-content: center;	
+}
+
+#feedback {
+	background: lightyellow; /* background color */
+	padding: 20px; 
+    font-size: 125%;
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 100%;
+	background-color:  white; 
+	color:  black; 
+}
+
+a:hover {
+	font-size:100%;
+	background-color: red; 
+	color: white; 
+}
